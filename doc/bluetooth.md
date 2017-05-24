@@ -32,7 +32,7 @@ Remeber all Values are Little Endian.
  0x17   |   | * |   | [Battery Level (0x2A19)](http://www.bluetooth.com/specifications/gatt/viewer?attributeXmlFile=org.bluetooth.characteristic.battery_level.xml)
  0x18   |   |   | * | Value (Read, Notify)
  0x19   |   |   | * | [Client Characteristic Configuration (0x2902)](http://www.bluetooth.com/specifications/gatt/viewer?attributeXmlFile=org.bluetooth.descriptor.gatt.client_characteristic_configuration.xml)
- 0x1A   |   |   | * | [Characteristic Presentation Format (0x2904)](http://www.bluetooth.com/specifications/gatt/viewer?attributeXmlFile=org.bluetooth.descriptor.gatt.characteristic_presentation_format.xml) ['\x04\x00\x0f\x18\x01\x00\x10']
+ 0x1A   |   |   | * | [Characteristic Presentation Format (0x2904)](http://www.bluetooth.com/specifications/gatt/viewer?attributeXmlFile=org.bluetooth.descriptor.gatt.characteristic_presentation_format.xml) unsigned 8-bit integer
  0x1B   | * |   |   | File Transfer (b993bf90-81e1-11e4-b4a9-0800200c9a66)
  0x1C   |   | * |   | Command (170d0d31-4213-11e3-aa6e-0800200c9a66)
  0x1D   |   |   | * | Value (Read, Write, Notify)
